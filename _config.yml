@@ -1,0 +1,10 @@
+remote_theme: minimal-mistakes@master
+plugins:
+- jekyll-remote-theme
+
+title: Vegetable Recognizer
+description: An Image classification API that classifies 15 different types of vegetables that are commonly found in the market and used for making salad.
+
+author:
+
+name: Sadi Hossain
