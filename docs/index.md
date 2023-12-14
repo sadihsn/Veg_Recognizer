@@ -4,7 +4,7 @@ layout: page
 
 ---
 # Veg Recognizer
-Can classify 20 different types of vegetables <br/>
+Can classify 15 different types of vegetables <br/>
 They are : <br/>
 
 1. Carrots
