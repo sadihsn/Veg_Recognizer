@@ -1,11 +1,11 @@
 ---
 title: Home
 layout: page
-
 ---
+
 # Veg Recognizer
 Can classify 15 different types of vegetables <br/>
-They are : <br/>
+They are: <br/>
 
 1. Carrots
 2. Tomatoes
@@ -22,3 +22,5 @@ They are : <br/>
 13. Kale
 14. Radishes
 15. Avocado
+
+[Try now!](Veg_Recognizer.html)
