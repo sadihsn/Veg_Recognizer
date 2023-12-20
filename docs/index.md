@@ -3,7 +3,7 @@ title: Home
 layout: page
 ---
 
-# Welcome to Veg Recognizer 🥦🍅
+# Welcome to Vegetable Recognizer 🥦🍅
 
 Unlock the magic of vegetable classification! Our Veg Recognizer can identify 15 different types of delicious vegetables. Go ahead, give it a try!
 
@@ -11,50 +11,50 @@ Unlock the magic of vegetable classification! Our Veg Recognizer can identify 15
 
 ### Vegetables it can classify:
 
-1. 🥕 **Carrots:**
+ 🥕 **Carrots:**
    - Rich in beta-carotene, good for eye health.
 
-2. 🍅 **Tomatoes:**
+ 🍅 **Tomatoes:**
    - High in antioxidants, supports heart health.
 
-3. 🥬 **Lettuce:**
+ 🥬 **Lettuce:**
    - Low in calories, high in vitamins A and K.
 
-4. 🍃 **Spinach:**
+ 🍃 **Spinach:**
    - Packed with iron and vitamins, supports bone health.
 
-5. 🥦 **Broccoli:**
+ 🥦 **Broccoli:**
    - Excellent source of fiber and vitamins C and K.
 
-6. 🥒 **Cucumbers:**
+ 🥒 **Cucumbers:**
    - Hydrating, supports skin health.
 
-7. 🌶️ **Bell Peppers:**
+ 🌶️ **Bell Peppers:**
    - Rich in vitamin C, boosts immunity.
 
-8. 🥔 **Potatoes:**
+ 🥔 **Potatoes:**
    - High in potassium, supports muscle and nerve function.
 
-9. 🧅 **Onions:**
+ 🧅 **Onions:**
    - Antioxidant properties, may reduce inflammation.
 
-10. 🧄 **Garlic:**
-    - Contains allicin, known for its medicinal properties.
+ 🧄 **Garlic:**
+   - Contains allicin, known for its medicinal properties.
 
-11. 🥒 **Zucchini:**
-    - Low in calories, high in antioxidants.
+ 🥒 **Zucchini:**
+   - Low in calories, high in antioxidants.
 
-12. 🥬 **Cabbage:**
-    - Rich in vitamin C, supports digestion.
+ 🥬 **Cabbage:**
+   - Rich in vitamin C, supports digestion.
 
-13. 🥦 **Kale:**
-    - Superfood, high in nutrients and antioxidants.
+ 🥦 **Kale:**
+   - Superfood, high in nutrients and antioxidants.
 
-14. 🥔 **Radishes:**
-    - Low in calories, good for digestion.
+ 🥔 **Radishes:**
+   - Low in calories, good for digestion.
 
-15. 🥑 **Avocado:**
-    - Healthy fats, supports heart health.
+ 🥑 **Avocado:**
+   - Healthy fats, supports heart health.
 
 Explore the colorful world of vegetables with Veg Recognizer and enjoy the amazing health benefits they offer!
 
