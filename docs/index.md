@@ -58,6 +58,6 @@ Unlock the magic of vegetable classification! Our Veg Recognizer can identify 15
 
 Explore the colorful world of vegetables with Veg Recognizer and enjoy the amazing health benefits they offer!
 
-![Vegetable Recognition](your_image_url_here) <!-- Add an image of your Veg Recognizer in action -->
+
 
 Feel free to share your experiences and let us know if you have any feedback. Happy veggie classifying! 🌽🥑🍆
