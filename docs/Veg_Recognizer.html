@@ -48,8 +48,18 @@
             display: none;
         }
 
+        #loadingMessage {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+
         #results {
             margin-top: 20px;
+        }
+
+        #label {
+            font-size: 18px;
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -63,15 +73,23 @@
 
     <button id="predictBtn">Predict Result</button>
 
-    <div id="results"></div>
+    <div id="loadingMessage"></div>
+    <div id="results">
+        <div id="label"></div>
+        <img id="imageResult" src="" width="100%" style="max-width: 500px;">
+    </div>
 
     <script>
         const uploadBtn = document.getElementById('uploadBtn');
         const photoInput = document.getElementById('photo');
         const predictBtn = document.getElementById('predictBtn');
-        const results = document.getElementById('results');
+        const loadingMessage = document.getElementById('loadingMessage');
+        const label = document.getElementById('label');
+        const imageResult = document.getElementById('imageResult');
 
         function loaded(reader) {
+            loadingMessage.innerText = 'Uploading image...';
+
             const response = fetch("https://sadihsn-vegetable-recognizer.hf.space/run/predict", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -79,10 +97,15 @@
             })
                 .then(response => response.json())
                 .then(json => {
-                    const label = json['data'][0]['label'];
-                    results.innerHTML = `<br/> <img src="${reader.result}" width="100%" style="max-width: 500px;"> <p>${label}</p>`;
+                    const labelResult = json['data'][0]['label'];
+                    label.innerText = labelResult;
+                    imageResult.src = reader.result;
+                    loadingMessage.innerText = ''; // Clear loading message
                 })
-                .catch(error => console.error('Error:', error));
+                .catch(error => {
+                    console.error('Error:', error);
+                    loadingMessage.innerText = 'Error uploading image. Please try again.';
+                });
         }
 
         function read() {
