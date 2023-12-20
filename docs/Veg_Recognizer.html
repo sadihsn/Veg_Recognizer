@@ -24,22 +24,24 @@
             margin: 20px;
         }
 
-        #uploadBtn {
+        #uploadBtn, #predictBtn {
             padding: 10px 20px;
-            background-color: #4CAF50; /* Green background color */
-            color: white;
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            margin: 10px;
+            width: 80%;
+            max-width: 200px;
+            font-size: 16px;
+            color: white;
+        }
+
+        #uploadBtn {
+            background-color: #4CAF50; /* Green background color */
         }
 
         #predictBtn {
-            padding: 10px 20px;
             background-color: #007BFF; /* Blue background color */
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
         }
 
         #photo {
@@ -54,8 +56,10 @@
 <body>
     <h1>Vegetable Recognizer</h1>
 
-    <label for="photo" id="uploadBtn">Upload Image</label>
-    <input id="photo" type="file">
+    <label for="photo">
+        <button id="uploadBtn">Upload Image</button>
+    </label>
+    <input id="photo" type="file" style="display: none;">
 
     <button id="predictBtn">Predict Result</button>
 
@@ -76,7 +80,7 @@
                 .then(response => response.json())
                 .then(json => {
                     const label = json['data'][0]['label'];
-                    results.innerHTML = `<br/> <img src="${reader.result}" width="500"> <p>${label}</p>`;
+                    results.innerHTML = `<br/> <img src="${reader.result}" width="100%" style="max-width: 500px;"> <p>${label}</p>`;
                 })
                 .catch(error => console.error('Error:', error));
         }
