@@ -1,4 +1,4 @@
-# Veg_Recognizer
+# Vegetable_Recognizer
 An image classification model from data collection, cleaning, model training, deployment and API integration. <br/>
 The model can classify 15 different types of vegetables <br/>
 The types are following: <br/>
