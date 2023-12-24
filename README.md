@@ -1,4 +1,4 @@
-# Veg_Recognizer
+# Vegetable_Recognizer
 An image classification model from data collection, cleaning, model training, deployment and API integration. <br/>
 The model can classify 15 different types of vegetables <br/>
 The types are following: <br/>
@@ -34,5 +34,5 @@ I deployed to model to HuggingFace Spaces Gradio App. The implementation can be 
 <img src = "app/gradio_app.png" width="700" height="350">
 
 # API integration with GitHub Pages
-The deployed model API is integrated [here](https://sadihsn97.github.io/Veg_Recognizer/) in GitHub Pages Website. Implementation and other details can be found in `docs` folder.
+The deployed model API is integrated [here](https://sadihsn.github.io/Vegetable_Recognizer/) in GitHub Pages Website. Implementation and other details can be found in `docs` folder.
 
