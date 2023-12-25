@@ -15,11 +15,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
     <title>Vegetable Recognizer</title>
     <style>
         body {
-            /* background-color: #bbca86;  */
-			background-image: url(./Wooden.jpg);
+            background-image: url(./Wooden.jpg);
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 20px;
@@ -35,14 +35,20 @@
             max-width: 200px;
             font-size: 16px;
             color: white;
+            background-color: #4CAF50; /* Green background color for uploadBtn */
+            transition: background-color 0.3s ease; /* Add transition for smoother effect */
         }
 
-        #uploadBtn {
-            background-color: #4CAF50; /* Green background color */
+        #uploadBtn:hover {
+            background-color: #45a049; /* Darker green color on hover */
         }
 
         #predictBtn {
-            background-color: #007BFF; /* Blue background color */
+            background-color: #007BFF; /* Blue background color for predictBtn */
+        }
+
+        #predictBtn:hover {
+            background-color: #0056b3; /* Darker blue color on hover */
         }
 
         #photo {
@@ -66,7 +72,7 @@
 </head>
 <body>
     <h1>Vegetable Recognizer</h1>
-    <h3>Click on "Upload Image" button to upload image and then click "Predict Result" button to get result.</h3>
+    <h3>Click on "Upload Image" button to upload an image and then click "Predict Result" button to get the result.</h3>
 
     <label for="photo">
         <button id="uploadBtn">Upload Image</button>
